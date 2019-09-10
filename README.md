@@ -84,7 +84,8 @@ BAYES.3.rec9xyzJewoWuvNrj Implement document classification using Naive Bayes
 
 #### Vocab / Concepts 
 
-*
+* Bayes Theorem
+* Conditional Probability
 
 #### Lesson Outline:
 
@@ -95,5 +96,5 @@ BAYES.3.rec9xyzJewoWuvNrj Implement document classification using Naive Bayes
 * Gaussian Naive Bayes vs. Bernoulli Naive Bayes
 	* Continuous Variables vs Categorial Variables (10 minutes)
 	* Review coding of Bernoulli Naive Bayes (15 minutes)
-
+		* Debugging / Handling Cases Unseen in Training 
 * Summary (5 minutes)
