@@ -19,11 +19,11 @@ hidden: true
 
 #### Lesson Summary:
 
-This lesson reviews section 23. Students should have already complete the accompanying readings and attempted the labs. 
+This lesson reviews section 23. Students should have already complete the accompanying readings and attempted the labs. The lesson begins by asking students to compute the conditional probability of an individual being a Democrat given some prior information regarding them and statistics surrounding the scenario. From there, a data set is introduced which mirrors and extends this initial word problem. Students are asked how they could apply a Naive Bayes Classifier to this datset, extending the intuition behind the original word problem which started the lesson. From there, students are asked to compare and contrast Bayesian Classifiers such as the Gaussian Naive Bayes Classifier and the Bernoulli Naive Bayes Classifier. (These implementations differ based on the nature of the underlying variables they model. Specifically, there is a large divide between how to handle continuous versus categorical variables.)  Finally, students are asked to debug a Naive Bayes Classifier Implementation. The source of this error revolves around the problem of a test case which does not have an associated example from the training set. This also raises the interesting question of how to handle said cases; assigning this case zero probability will force the classifier to ignore all other data regarding this sample, so arbitrarily choosing a small but positive nonzero probability is a typical solution.
 
 #### Topic:
 
-Statistics: 
+Statistics: Bayes Theorem and Naive Bayes Classifiers
 
 #### Prerequisite knowledge:
 
